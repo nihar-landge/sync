@@ -1,0 +1,11 @@
+# Python
+server/.venv/
+__pycache__/
+*.pyc
+
+# Go build artifacts
+client/cloudstream
+client/cloudstream-*
+
+# Local state
+.DS_Store
