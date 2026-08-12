@@ -124,3 +124,15 @@ POST /api/v1/files/{id}/chunks/{n}/complete     # {checksum, size_bytes}
 GET  /api/v1/files/{id}/meta
 DELETE /api/v1/files/{id}
 ```
+
+## Next steps
+
+See [NEXT_STEPS.md](NEXT_STEPS.md) — ordered backlog: M4 mount acceptance on
+real FUSE hardware, FUSE `create` for new files, live OCI validation and
+deployment, then auth/prefetch hardenings and M8 multi-device sync.
+
+## Status
+
+See [STATUS.md](STATUS.md) — detailed inventory of what is built, tested and
+pushed vs what remains (R1–R11), with the verification evidence from the
+build session.
